@@ -1,0 +1,14 @@
+[hostname]
+ssh_only = false
+prefix = "⟪"
+suffix = "⟫"
+trim_at = "opdc"
+disabled = false
+
+[username]
+disabled = false
+
+[directory]
+truncation_length = 8
+truncate_to_repo = false
+disabled = false
