@@ -71,10 +71,13 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions ssh-agent)
+plugins=(common-aliases fzf git zsh-syntax-highlighting zsh-autosuggestions ssh-agent)
 
-# enable ssh-agent
+# enable ssh-agent, required by ssh-agent plugin
 zstyle :omz:plugins:ssh-agent agent-forwarding on
+
+# required by fzf plugin
+export FZF_BASE=/usr/bin/fzf
 
 source $ZSH/oh-my-zsh.sh
 
@@ -105,6 +108,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vim="nvim"
 alias zshconfig="vim ~/.zshrc"
+alias i3config="vim ~/.config/i3/config"
 
 # PATH definitions
 export NODEJS_HOME=/opt/nodejs/bin # NodeJS
@@ -129,6 +133,13 @@ bindkey '\E[2~' autosuggest-accept #Insert, another option is vi-insert
 export TERM=xterm-color
 # force i3-sensible-terminal to use termite
 export TERMINAL=termite
+
+# source fzf for keybindings, examples:
+#"^I" fzf-completion (not working for me :/)
+#"^R" fzf-history-widget
+#"^T" fzf-file-widget
+#"^[c" fzf-cd-widget
+source "/usr/share/fzf/key-bindings.zsh"
 
 # uncoment below if you want yo use starship
 #eval "$(starship init zsh)"
