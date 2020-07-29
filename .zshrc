@@ -130,7 +130,7 @@ bindkey '\E[2~' autosuggest-accept #Insert, another option is vi-insert
 
 # Terminal options
 # force termite to use xterm-color
-export TERM=xterm-color
+export TERM=xterm-256color
 # force i3-sensible-terminal to use termite
 export TERMINAL=termite
 
