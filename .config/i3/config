@@ -185,6 +185,9 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+# printscreen - Print Key: select what you want to save on the screen. Shift + Print: Print entire screen and outputs to clipboard (xclip)
+bindsym Print --release exec "scrot -s ~/screenshot-$(date +%F_%T)_sel.png -e 'xclip -selection c -t image/png < $f'"
+bindsym Shift+Print exec "scrot ~/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 
 # class                 border  bground text    indicator child_border
 client.focused          #6272A4 #6272A4 #F8F8F2 #B819E0	  #6272A4
