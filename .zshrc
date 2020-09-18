@@ -134,6 +134,9 @@ export TERM=xterm-256color
 # force i3-sensible-terminal to use termite
 export TERMINAL=termite
 
+# set default editor to vim
+export EDITOR=vim
+
 # source fzf for keybindings, examples:
 #"^I" fzf-completion (not working for me :/)
 #"^R" fzf-history-widget

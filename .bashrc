@@ -191,3 +191,5 @@ export TERM=xterm-color
 # force i3-sensible-terminal to use termite
 export TERMINAL=termite
 
+# set default editor to vim
+export EDITOR=vim
