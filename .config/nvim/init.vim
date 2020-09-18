@@ -86,5 +86,14 @@ syntax on
 " run file
 nnoremap <F9> :!clear && %:p<Enter>
 
+" use <ctrl>+p to open fzf
 nnoremap <silent> <C-p> :FZF -m<cr>
+
+" use gd to go to definition
 nmap <silent> gd <Plug>(coc-definition)
+
+" use <Leader>w to quick save
+noremap <Leader>w :update<CR>
+
+" use <Leader>l to quick clear highlight text
+noremap <Leader>l :nohl<CR>
