@@ -222,6 +222,9 @@ bar {
     #status_command i3status
 }
 
+# bind mod+f12 to lock screen with i3lock
+bindsym $mod+F8 exec --no-startup-id i3lock -c 000000
+
 #assign [class="Code"] $ws2
 #exec_always --no-startup-id code
 
