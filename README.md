@@ -29,6 +29,7 @@ Using:
         - noto-fonts-emoji
         - ttf-inconsolata
         - ttf-nerd-fonts-symbols
+        - powerline-fonts
 
 ### Optional Packages
     - dmenu
