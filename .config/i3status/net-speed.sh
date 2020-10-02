@@ -73,11 +73,17 @@ update_rate() {
 
 #mycustomcommand=$( echo "hello world")
 
+update_weather() {
+    weather=''
+    [ -f /tmp/weather ] && weather=$(grep -oP ': \K.*' /tmp/weather)
+}
+
 i3status | (read line && echo "$line" && read line && echo "$line" && read line && echo "$line" && update_rate && 
 while :
 do
   read line
   update_rate
+  update_weather
   #echo ",[{\"full_text\":\"${rate}\" }, {\"full_text\":\"$mycustomcommand\" },${line#,\[}" || exit 1
-  echo ",[{\"full_text\":\"${rate}\" }, ${line#,\[}" || exit 1
+  echo ",[{\"full_text\":\"$weather\" }, {\"full_text\":\"${rate}\" }, ${line#,\[}" || exit 1
 done)
