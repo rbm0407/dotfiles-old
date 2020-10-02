@@ -42,3 +42,9 @@ Install:
     - git submodule init
     - git submodule update
     - to install nvim plugins, open nvim and run `:PluginInstall`
+
+### Optional configs:
+    - Weather:
+        create the following crontab for your user:
+        ```*/30 * * * * /usr/bin/curl -s 'wttr.in/-00.0000000,-00.000000?format=3' > /tmp/weather```
+        where -00.000000, -00.000000 is the coordenate of your city
