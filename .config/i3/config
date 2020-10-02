@@ -198,6 +198,7 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 
 client.background       #F8F8F2
 
+for_window [class=^.*] border normal 1
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
