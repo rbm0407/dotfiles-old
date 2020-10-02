@@ -20,6 +20,9 @@
 !.config/nvim/init.vim
 !.config/nvim/bundle/
 !.config/nvim/bundle/Vundle.vim
+!.config/coc/
+!.config/coc/extensions/
+!.config/coc/extensions/package.json
 !.config/termite/
 !.config/termite/config
 !.oh-my-zsh

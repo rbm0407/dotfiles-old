@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc-phpls": ">=2.1.10",
+    "coc-python": ">=1.2.12"
+  }
+}
