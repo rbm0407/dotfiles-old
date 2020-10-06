@@ -25,4 +25,6 @@
 !.config/coc/extensions/package.json
 !.config/termite/
 !.config/termite/config
+!.config/ranger/
+!.config/ranger/rc.conf
 !.oh-my-zsh
