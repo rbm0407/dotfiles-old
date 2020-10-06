@@ -27,4 +27,7 @@
 !.config/termite/config
 !.config/ranger/
 !.config/ranger/rc.conf
+!.local
+!.local/bin
+!.local/bin/vsh
 !.oh-my-zsh

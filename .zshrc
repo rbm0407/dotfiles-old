@@ -111,6 +111,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias zshconfig="vim ~/.zshrc"
 alias i3config="vim ~/.config/i3/config"
+alias ssh='vsh'
 
 # PATH definitions
 export NODEJS_HOME=/opt/nodejs/bin # NodeJS

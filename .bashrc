@@ -177,6 +177,8 @@ export PS1="\[\e[32m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[36m\]\w\[\e[m\]:\[\e[35m
 
 #hostname | figlet
 alias v="nvim"
+alias ssh="vsh"
+
 
 # NodeJS
 export NODEJS_HOME=/opt/nodejs/bin
