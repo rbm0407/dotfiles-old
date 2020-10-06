@@ -180,7 +180,7 @@ alias v="nvim"
 
 # NodeJS
 export NODEJS_HOME=/opt/nodejs/bin
-export HOME_BIN=.bin
+export HOME_BIN=.local/bin
 export PATH=$NODEJS_HOME:$HOME_BIN:$PATH
 
 set -o vi

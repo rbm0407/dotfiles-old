@@ -1,6 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+export LC_ALL=en_US.UTF-8
+
 # Path to your oh-my-zsh installation.
 export ZSH=".oh-my-zsh"
 
@@ -112,7 +114,7 @@ alias i3config="vim ~/.config/i3/config"
 
 # PATH definitions
 export NODEJS_HOME=/opt/nodejs/bin # NodeJS
-export HOME_BIN=.bin # Personal "bin" folder
+export HOME_BIN=.local/bin # Personal "bin" folder
 export PATH=$NODEJS_HOME:$HOME_BIN:$PATH
 
 # use vi mode
