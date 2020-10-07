@@ -115,7 +115,7 @@ alias ssh='vsh'
 
 # PATH definitions
 export NODEJS_HOME=/opt/nodejs/bin # NodeJS
-export HOME_BIN=.local/bin # Personal "bin" folder
+export HOME_BIN=~/.local/bin # Personal "bin" folder
 export PATH=$NODEJS_HOME:$HOME_BIN:$PATH
 
 # use vi mode
