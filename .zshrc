@@ -113,6 +113,9 @@ alias zshconfig="vim ~/.zshrc"
 alias i3config="vim ~/.config/i3/config"
 alias ssh='vsh'
 
+# git log with graph alias
+alias gitl='git log --graph --oneline --all'
+
 # PATH definitions
 export NODEJS_HOME=/opt/nodejs/bin # NodeJS
 export HOME_BIN=~/.local/bin # Personal "bin" folder
@@ -138,7 +141,7 @@ export TERM=xterm-256color
 export TERMINAL=termite
 
 # set default editor to vim
-export EDITOR=vim
+export EDITOR=nvim
 
 # source fzf for keybindings, examples:
 #"^I" fzf-completion (not working for me :/)

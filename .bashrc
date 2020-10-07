@@ -176,9 +176,11 @@ alias glu="git log --graph --abbrev-commit --decorate --date=relative --format=f
 export PS1="\[\e[32m\]\u\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[36m\]\w\[\e[m\]:\[\e[35m\]\`parse_git_branch\`\[\e[m\]\\$ "
 
 #hostname | figlet
-alias v="nvim"
+alias vim="nvim"
 alias ssh="vsh"
 
+# git log with graph alias
+alias gitl='git log --graph --oneline --all'
 
 # NodeJS
 export NODEJS_HOME=/opt/nodejs/bin
@@ -194,4 +196,4 @@ export TERM=xterm-color
 export TERMINAL=termite
 
 # set default editor to vim
-export EDITOR=vim
+export EDITOR=nvim
