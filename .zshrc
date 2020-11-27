@@ -13,7 +13,7 @@ DEFAULT_USER="rodrigo"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="agnoster"
+ZSH_THEME="bullet-train"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -112,6 +112,7 @@ alias vim="nvim"
 alias zshconfig="vim ~/.zshrc"
 alias i3config="vim ~/.config/i3/config"
 alias ssh='vsh'
+alias ls='exa'
 
 # git log with graph alias
 alias gitl='git log --graph --oneline --all'
@@ -132,7 +133,8 @@ bindkey '\EOH' beginning-of-line #Home
 bindkey '\EOF' end-of-line #End
 bindkey '\E[5~' up-history #PageUp
 bindkey '\E[6~' down-history #PageDown
-bindkey '\E[2~' autosuggest-accept #Insert, another option is vi-insert 
+bindkey '\E[2~' vi-insert #Insert
+bindkey '^P' autosuggest-accept # Shift+Tab for accept auto suggestion
 
 # Terminal options
 # force termite to use xterm-color
