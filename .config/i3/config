@@ -241,5 +241,8 @@ exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=secrets
 # exec --no-startup-id google-chrome --password-store=gnome
 # exec --no-startup-id google-chrome-beta --password-store=gnome
 
+exec --no-startup-id /usr/lib/polkit-1/polkitd --no-debug
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
 exec --no-startup-id setxkbmap -layout us,br -option 'grp:alt_shift_toggle' -option 'ctrl:swapcaps'
 exec --no-startup-id lspci | grep "VGA*\|NVIDIA" && /usr/bin/nvidia-force-composition  
