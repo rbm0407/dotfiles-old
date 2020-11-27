@@ -189,6 +189,8 @@ bindsym $mod+r mode "resize"
 bindsym Print --release exec "scrot -s ~/screenshot-$(date +%F_%T)_sel.png -e 'xclip -selection c -t image/png < $f'"
 bindsym Shift+Print exec "scrot ~/screenshot-$(date +%F_%T).png -e 'xclip -selection c -t image/png < $f'"
 
+bindsym Caps_Lock exec "notify-send -u critical  -t 0 'Caps Lock pressed'"
+
 # class                 border  bground text    indicator child_border
 client.focused          #6272A4 #6272A4 #F8F8F2 #B819E0	  #6272A4
 client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
@@ -246,3 +248,10 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 
 exec --no-startup-id setxkbmap -layout us,br -option 'grp:alt_shift_toggle' -option 'ctrl:swapcaps'
 exec --no-startup-id lspci | grep "VGA*\|NVIDIA" && /usr/bin/nvidia-force-composition  
+
+exec --no-startup-id hostname | grep 'open00' && twinkle
+exec --no-startup-id hostname | grep 'open00' && ~/.local/bin/startup.sh
+
+# set specific workspaces by monitor
+#workspace $ws1 output secondary
+#workspace $ws10 output primary

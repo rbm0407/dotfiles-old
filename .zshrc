@@ -145,6 +145,8 @@ export TERMINAL=termite
 # set default editor to vim
 export EDITOR=nvim
 
+export JAVA_HOME=$(realpath /usr/bin/javadoc | sed 's@bin/javadoc$@@')
+
 # source fzf for keybindings, examples:
 #"^I" fzf-completion (not working for me :/)
 #"^R" fzf-history-widget
