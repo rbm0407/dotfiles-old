@@ -15,6 +15,7 @@
  * i3
  * i3status
  * fzf
+ * exa
  * some terminal like rxvt-unicode, termite or gnome-terminal
  * some fonts:
     - ttf-caladea
