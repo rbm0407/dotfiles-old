@@ -200,8 +200,11 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 
 client.background       #F8F8F2
 
-for_window [class=^.*] border normal 1
+# don't show window title, except in stack mode
+for_window [class=^.*] border pixel 1
 
+# toggle between borders: normal, none, pixel
+bindsym $mod+BackSpace border toggle
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
@@ -227,6 +230,10 @@ bar {
 
 # bind mod+f12 to lock screen with i3lock
 bindsym $mod+F8 exec --no-startup-id i3lock -c 000000
+
+# exec window composite manager and wallpaper, just for visual purposes only
+exec --no-startup-id xcompmgr -c
+exec --no-startup-id feh --bg-scale ~/.wallpaper.png
 
 #assign [class="Code"] $ws2
 #exec_always --no-startup-id code

@@ -1,5 +1,7 @@
 ## My dotfiles
 
+![Screenshot](https://i.imgur.com/SAIP9KK.png)
+
 ### Using:
  * zsh with ohmyzsh and vi mode
  * nvim with Vundle
@@ -17,6 +19,8 @@
  * fzf
  * exa
  * some terminal like rxvt-unicode, termite or gnome-terminal
+ * Optional: xcompmgr (for transparency terminal)
+ * Optional: feh (for set wallpaper, default wallpaper location: "~/.wallpaper.png")
  * some fonts:
     - ttf-caladea
     - ttf-carlito

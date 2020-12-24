@@ -1,5 +1,5 @@
 [options]
-#allow_bold = true
+allow_bold = true
 #audible_bell = false
 #bold_is_bright = true
 #cell_height_scale = 1.0
@@ -52,8 +52,8 @@ cursor_blink = on
 foreground = #dcdccc
 background = #000000
 
-# 20% background transparency (requires a compositor)
-#background = rgba(63, 63, 63, 0.8)
+# 15% background transparency (requires a compositor)
+background = rgba(11, 10, 19, 0.90)
 
 # If unset, will reverse foreground and background
 highlight = #2f2f2f
@@ -75,6 +75,43 @@ highlight = #2f2f2f
 #color13 = #ec93d3
 #color14 = #93e0e3
 #color15 = #ffffff
+
+# special
+foreground_bold = #095c00
+cursor          = #095c00
+
+# black
+color0  = #282a2e
+color8  = #373b41
+
+# red
+color1  = #de3c3c
+color9  = #c92626
+
+# green
+color2  = #3da710
+color10 = #6fbd68
+
+# yellow
+color3  = #f0a26c
+color11 = #f0c674
+
+# blue
+color4  = #3d4799
+color12 = #407ab8
+
+# magenta (changed a lot here)
+color5  = #5a52a1
+#color13 = #9c91ff
+color13 = #7d6ffc
+
+# cyan
+color6  = #61dec9
+color14 = #359ec4
+
+# white
+color7  = #cfdae6
+color15 = #c5c8c6
 
 [hints]
 #font = Monospace 12
