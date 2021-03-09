@@ -39,6 +39,7 @@
 
 ### Install:
  * Clone to your home directory
+ * Run `pip install pynvim`
  * Get ohmyzsh and Vundle git submodules with:
     - git submodule init
     - git submodule update
