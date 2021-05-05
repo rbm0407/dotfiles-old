@@ -58,5 +58,16 @@
         ```
         where -00.000000, -00.000000 is the coordenate of your city
 
+ * System-wide ctrl:nocaps:
+    - create: `/etc/X11/xorg.conf.d/00-keyboard.conf` with contents:
+```
+Section "InputClass"
+        Identifier "system-keyboard"
+        MatchIsKeyboard "on"
+        Option "XkbLayout" "us,br"
+        Option "XkbOptions" "ctrl:nocaps,grp:alt_shift_toggle"
+EndSection
+```
+
 ### License
 [GPL-3.0](LICENSE)
