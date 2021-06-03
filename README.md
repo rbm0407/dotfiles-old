@@ -10,6 +10,7 @@
  * some bash config and vi mode
 
 ### Dependencies
+ * alacritty
  * zsh
  * neovim:
     - node (for coc plugin)
@@ -18,7 +19,8 @@
  * i3status
  * fzf
  * exa
- * some terminal like rxvt-unicode, termite or gnome-terminal
+ * ranger
+ * ueberzug for ranger image preview
  * Optional: xcompmgr (for transparency terminal)
  * Optional: feh (for set wallpaper, default wallpaper location: "~/.wallpaper.png")
  * some fonts:
@@ -36,6 +38,7 @@
     - ttf-inconsolata
     - ttf-nerd-fonts-symbols
     - powerline-fonts
+    - terminus-font
 
 ### Install:
  * Clone to your home directory

@@ -137,10 +137,10 @@ bindkey '\E[2~' vi-insert #Insert
 bindkey '^P' autosuggest-accept # Shift+Tab for accept auto suggestion
 
 # Terminal options
-# force termite to use xterm-color
+# force alacritty to use xterm-color
 export TERM=xterm-256color
-# force i3-sensible-terminal to use termite
-export TERMINAL=termite
+# force i3-sensible-terminal to use alacritty
+export TERMINAL=alacritty
 
 # set default editor to vim
 export EDITOR=nvim

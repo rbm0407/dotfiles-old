@@ -193,7 +193,7 @@ set -o vi
 # force termite to use xterm-color
 export TERM=xterm-color
 # force i3-sensible-terminal to use termite
-export TERMINAL=termite
+export TERMINAL=alacritty
 
 # set default editor to vim
 export EDITOR=nvim
