@@ -1,6 +1,7 @@
 *
 !README.md
 !LICENSE
+!.alacritty.yml
 !.gitignore
 !.gitmodules
 !.xinitrc
