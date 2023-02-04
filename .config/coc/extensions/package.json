@@ -1,6 +1,9 @@
 {
   "dependencies": {
-    "coc-phpls": ">=2.1.10",
-    "coc-python": ">=1.2.13"
-  }
+    "coc-phpls": ">=2.2.2",
+    "coc-python": ">=1.2.13",
+    "coc-rust-analyzer": ">=0.72.0"
+  },
+  "disabled": [],
+  "locked": []
 }

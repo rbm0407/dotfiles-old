@@ -12,22 +12,54 @@
 !.vimrc
 !.config
 !.config/starship.toml
+
+# i3 and i3status
 !.config/i3/
 !.config/i3/config
 !.config/i3status/
 !.config/i3status/config
 !.config/i3status/net-speed.sh
+
+# nvim
 !.config/nvim/
 !.config/nvim/init.vim
+!.config/nvim/syntax/
+!.config/nvim/syntax/ruby.vim
+!.config/nvim/syntax/go.vim
+!.config/nvim/syntax/python.vim
+!.config/nvim/syntax/javascriptreact.vim
+!.config/nvim/syntax/javascript.vim
+!.config/nvim/autoload/
+!.config/nvim/autoload/purify.vim
+!.config/nvim/autoload/airline/
+!.config/nvim/autoload/airline/themes/
+!.config/nvim/autoload/airline/themes/purify.vim
+!.config/nvim/autoload/lightline/
+!.config/nvim/autoload/lightline/colorscheme/
+!.config/nvim/autoload/lightline/colorscheme/purify.vim
+!.config/nvim/colors/
+!.config/nvim/colors/purify.vim
+!.config/nvim/colors/dogrun.vim
+!.config/nvim/colors/solarized8_flat.vim
+!.config/nvim/colors/gryffin.vim
+!.config/nvim/.netrwhist
 !.config/nvim/bundle/
 !.config/nvim/bundle/Vundle.vim
+!.config/nvim/after/
+!.config/nvim/after/syntax/
+!.config/nvim/after/syntax/cpp.vim
+!.config/nvim/after/syntax/c.vim
+
+# coc
 !.config/coc/
 !.config/coc/extensions/
 !.config/coc/extensions/package.json
-!.config/termite/
-!.config/termite/config
+
+# ranger
 !.config/ranger/
 !.config/ranger/rc.conf
+
+# my scripts
 !.local
 !.local/bin
 !.local/bin/vsh

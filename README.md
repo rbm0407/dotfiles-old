@@ -3,7 +3,7 @@
 ![Screenshot](https://i.imgur.com/SAIP9KK.png)
 
 ### Using:
- * zsh with ohmyzsh and vi mode
+ * zsh with powerlevel10k and vi mode
  * nvim with Vundle
  * i3
  * i3status
@@ -23,6 +23,9 @@
  * ueberzug for ranger image preview
  * Optional: xcompmgr (for transparency terminal)
  * Optional: feh (for set wallpaper, default wallpaper location: "~/.wallpaper.png")
+ * playerctl
+ * zsh-syntax-highlighting
+ * zsh-autosuggestions
  * some fonts:
     - ttf-caladea
     - ttf-carlito
@@ -30,7 +33,7 @@
     - ttf-droid
     - ttf-font-awesome
     - ttf-liberation
-    - ttf-linux-libertine
+    - libertinus-font
     - ttf-opensans
     - ttf-ubuntu-font-family
     - noto-fonts
