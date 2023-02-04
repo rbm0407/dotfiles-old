@@ -23,7 +23,12 @@
   # available, otherwise `xterm-256color` is used.
   #TERM: alacritty
 
-#window:
+window:
+  # Background opacity
+  #
+  # Window opacity as a floating point number from `0.0` to `1.0`.
+  # The value `0.0` is completely transparent and `1.0` is opaque.
+  opacity: 0.80
   # Window dimensions (changes require restart)
   #
   # Number of lines/columns (not pixels) in the terminal. The number of columns
@@ -111,7 +116,8 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: Droid Sans Mono
+    #family: Droid Sans Mono
+    family: Cascadia Code
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -150,7 +156,7 @@ font:
     #style: Bold Italic
 
   # Point size
-  size: 12.0
+  size: 14.5
 
   # Offset is the extra space around each character. `offset.y` can be thought
   # of as modifying the line spacing, and `offset.x` as modifying the letter
@@ -386,12 +392,6 @@ colors:
   #     args: ["Hello, World!"]
   #
   #command: None
-
-# Background opacity
-#
-# Window opacity as a floating point number from `0.0` to `1.0`.
-# The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.95
 
 #selection:
   # This string contains all characters that are used as separators for

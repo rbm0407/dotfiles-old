@@ -121,3 +121,6 @@ noremap <Leader>s :sp<CR>
 
 " use <Leader>v to create new vertical split
 noremap <Leader>v :vsp<CR>
+
+set termguicolors
+colorscheme purify
