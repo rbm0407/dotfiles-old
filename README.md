@@ -1,6 +1,6 @@
 ## My dotfiles
 
-![Screenshot](https://i.imgur.com/SAIP9KK.png)
+![Screenshot](https://i.imgur.com/48FIjU2.png)
 
 ## Important: I move from i3 to dwm, but the old config is on branch i3
 
@@ -51,8 +51,9 @@
 
 ### Install:
  * Clone to your home directory
+ * make dwm with `cd .local/src/dwm && make && make install`
  * Run `pip install pynvim`
- * Get ohmyzsh and Vundle git submodules with:
+ * Get submodules with:
     - git submodule init
     - git submodule update
     - to install nvim plugins, open nvim and run `:PluginInstall`

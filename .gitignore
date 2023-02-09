@@ -58,6 +58,27 @@
 !.config/ranger/
 !.config/ranger/rc.conf
 
+# dwm
+!.local/
+!.local/src/
+!.local/src/dwm/
+!.local/src/dwm/dwm.c
+!.local/src/dwm/util.h
+!.local/src/dwm/dwm.1
+!.local/src/dwm/config.mk
+!.local/src/dwm/config.def.h
+!.local/src/dwm/dwm-ru_gaps-6.3.diff
+!.local/src/dwm/drw.h
+!.local/src/dwm/Makefile
+!.local/src/dwm/LICENSE
+!.local/src/dwm/transient.c
+!.local/src/dwm/config.h
+!.local/src/dwm/README
+!.local/src/dwm/dwm.png
+!.local/src/dwm/util.c
+!.local/src/dwm/mydiffs.diff
+!.local/src/dwm/drw.c
+
 # dwm-bar
 !.local/
 !.local/share/
