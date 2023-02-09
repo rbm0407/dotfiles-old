@@ -2,11 +2,16 @@
 
 ![Screenshot](https://i.imgur.com/SAIP9KK.png)
 
+## Important: I move from i3 to dwm, but the old config is on branch i3
+
+## Branches:
+* i3: my old i3configs
+* main: using dwm
+
 ### Using:
  * zsh with powerlevel10k and vi mode
  * nvim with Vundle
- * i3
- * i3status
+ * suckless dwm
  * some bash config and vi mode
 
 ### Dependencies
