@@ -103,3 +103,6 @@
 !.local
 !.local/bin
 !.local/bin/vsh
+
+# powerlevel10k
+!.powerlevel10k
