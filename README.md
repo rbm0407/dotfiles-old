@@ -16,7 +16,7 @@
  * dwm-bar
 
 ### Dependencies
- * alacritty
+ * kitty or alacritty
  * zsh
  * neovim:
     - node (for coc plugin)
