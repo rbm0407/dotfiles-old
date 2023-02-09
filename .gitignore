@@ -58,6 +58,47 @@
 !.config/ranger/
 !.config/ranger/rc.conf
 
+# dwm-bar
+!.local/
+!.local/share/
+!.local/share/dwm-bar/
+!.local/share/dwm-bar/README.md
+!.local/share/dwm-bar/CONTRIBUTING.md
+!.local/share/dwm-bar/bar-functions/
+!.local/share/dwm-bar/bar-functions/dwm_spotify.sh
+!.local/share/dwm-bar/bar-functions/dwm_weather.sh
+!.local/share/dwm-bar/bar-functions/dwm_ccurse.sh
+!.local/share/dwm-bar/bar-functions/dwm_pulse.sh
+!.local/share/dwm-bar/bar-functions/dwm_loadavg.sh
+!.local/share/dwm-bar/bar-functions/dwm_mpc.sh
+!.local/share/dwm-bar/bar-functions/dwm_cmus.sh
+!.local/share/dwm-bar/bar-functions/dwm_connman.sh
+!.local/share/dwm-bar/bar-functions/dwm_transmission.sh
+!.local/share/dwm-bar/bar-functions/dwm_battery.sh
+!.local/share/dwm-bar/bar-functions/dwm_wpa.sh
+!.local/share/dwm-bar/bar-functions/dwm_date.sh
+!.local/share/dwm-bar/bar-functions/dwm_currency.sh
+!.local/share/dwm-bar/bar-functions/dwm_networkmanager.sh
+!.local/share/dwm-bar/bar-functions/dwm_keyboard.sh
+!.local/share/dwm-bar/bar-functions/dwm_backlight.sh
+!.local/share/dwm-bar/bar-functions/dwm_vpn.sh
+!.local/share/dwm-bar/bar-functions/dwm_alsa.sh
+!.local/share/dwm-bar/bar-functions/dwm_mail.sh
+!.local/share/dwm-bar/bar-functions/dwm_resources.sh
+!.local/share/dwm-bar/bar-functions/dwm_alarm.sh
+!.local/share/dwm-bar/bar-functions/dwm_solar_panel.sh
+!.local/share/dwm-bar/bar-functions/dwm_countdown.sh
+!.local/share/dwm-bar/LICENSE
+!.local/share/dwm-bar/dwm_bar.sh
+!.local/share/dwm-bar/sshot.png
+!.local/share/dwm-bar/dep/
+!.local/share/dwm-bar/dep/fedora.txt
+!.local/share/dwm-bar/dep/void.txt
+!.local/share/dwm-bar/dep/arch.txt
+!.local/share/dwm-bar/.github/
+!.local/share/dwm-bar/.github/stale.yml
+!.local/share/dwm-bar/.github/FUNDING.yml
+
 # my scripts
 !.local
 !.local/bin

@@ -13,6 +13,7 @@
  * nvim with Vundle
  * suckless dwm
  * some bash config and vi mode
+ * dwm-bar
 
 ### Dependencies
  * alacritty
