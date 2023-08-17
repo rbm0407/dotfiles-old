@@ -18,6 +18,7 @@ Plugin 'neoclide/coc.nvim'
 Plugin 'mattn/emmet-vim'
 Plugin 'mechatroner/rainbow_csv'
 Plugin 'vim-vdebug/vdebug'
+Plugin 'sotte/presenting.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -121,6 +122,8 @@ noremap <Leader>s :sp<CR>
 
 " use <Leader>v to create new vertical split
 noremap <Leader>v :vsp<CR>
+
+let g:markdown_fenced_languages = ['go','perl','sh', 'php', 'python', 'cpp', 'c', 'javascript', 'vim', 'bash', 'sh']
 
 set termguicolors
 colorscheme purify

@@ -45,10 +45,19 @@ alias ls='exa'
 # git log with graph alias
 alias gitl='git log --graph --oneline --all'
 
+# android sdk
+export ANDROID_HOME=/opt/android-sdk
+export ANDROID_CMDLINETOOLS=$ANDROID_HOME/cmdline-tools/latest/bin
+export ANDROID_EMULATOR=$ANDROID_HOME/emulator
+export ANDROID_TOOLS=$ANDROID_HOME/tools
+export ANDROID_PLATFORM_TOOLS=$ANDROID_HOME/platform-tools
+export ANDROID_PATH=$ANDROID_CMDLINETOOLS:$ANDROID_EMULATOR:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS
+
 # PATH definitions
-export NODEJS_HOME=/opt/nodejs/bin # NodeJS
+export CARGO_BIN=~/.cargo/bin
+export COMPOSER_BIN=~/.config/composer/vendor/bin
 export HOME_BIN=~/.local/bin # Personal "bin" folder
-export PATH=$NODEJS_HOME:$HOME_BIN:$HOME/.config/composer/vendor/bin:$PATH
+export PATH=$PATH:$ANDROID_PATH:$CARGO_BIN:$COMPOSER_BIN:$HOME_BIN
 
 # how to know what keys is each, use: infocmp -L -1
 # how to know what commands are available, use: zle -al
@@ -63,14 +72,16 @@ export PATH=$NODEJS_HOME:$HOME_BIN:$HOME/.config/composer/vendor/bin:$PATH
 
 # Terminal options
 # force alacritty to use xterm-color
-export TERM=xterm-256color
+#export TERM=xterm-256color
 # force i3-sensible-terminal to use alacritty
-export TERMINAL=alacritty
+export TERMINAL=kitty
 
 # set default editor to vim
 export EDITOR=nvim
 
 export JAVA_HOME=$(realpath /usr/bin/javadoc | sed 's@bin/javadoc$@@')
+
+WLR_NO_HARDWARE_CURSORS=1
 
 # source fzf for keybindings, examples:
 #"^I" fzf-completion (not working for me :/)

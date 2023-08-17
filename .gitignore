@@ -120,6 +120,12 @@
 !.local/share/dwm-bar/.github/stale.yml
 !.local/share/dwm-bar/.github/FUNDING.yml
 
+# hyprland
+!start-hypr.sh
+!.config/hypr/
+!.config/hypr/hyprland.conf
+!.config/hypr/hyprpaper.conf
+
 # my scripts
 !.local
 !.local/bin
